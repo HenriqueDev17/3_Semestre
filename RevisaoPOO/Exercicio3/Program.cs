@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Exercicio3;
+
+Pessoa henrique = new Pessoa();
+
+henrique.Nome = "Henrique Bucha";
+henrique.Idade = 17;
+
+henrique.ExibirDados();
+

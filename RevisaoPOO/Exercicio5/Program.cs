@@ -1,0 +1,10 @@
+﻿using Exercicio5;
+Pessoa pessoa = new Pessoa("Henrique", 17);
+pessoa.ExibirDados();
+Console.WriteLine($"");
+Console.WriteLine($"");
+Funcionario funcionario = new Funcionario();
+funcionario.Nome = "Samuel";
+funcionario.Idade = 18;
+funcionario.Salario = 5000.0;
+funcionario.ExibirDados();
