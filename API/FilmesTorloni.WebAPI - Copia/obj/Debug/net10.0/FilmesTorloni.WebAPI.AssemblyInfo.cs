@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmesTorloni.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45d0d94ee1733f6f83e5bec90887d3f77e94d8c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b91f8ec50bb8b36a2a3cb3007e70e6e16e282f66")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmesTorloni.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmesTorloni.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

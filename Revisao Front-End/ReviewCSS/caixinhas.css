@@ -1,0 +1,40 @@
+*{
+    /*Reset CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    section: borda, padding
+*/
+.sessao-noticias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    padding: 20px;
+    border: 1px dashed salmon;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 920px;
+    height: 800px;
+}
+
+/*
+article: cor de fundo, cor do texto
+deixar em coluna, centralizado nos dois eixos
+*/
+
+.noticia{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    color: #fff;
+    box-sizing: border-box;
+}
