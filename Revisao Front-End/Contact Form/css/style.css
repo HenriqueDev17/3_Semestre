@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Architects;
+    src: url(../css/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #18A2C9, #72C3BD);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+}
+
+.container--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header__image-perfil {
+    width: 100px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(222, 210, 124, 0.2);
+}
+
+.form-header__title {
+    color: #DED27C;
+    font-family: Architects, sans-serif;
+}
+
+.form-header__text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-contact {
+    padding: 20px;
+}
+
+.form-contact__linha {
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin-bottom: 15px;
+/* height: 60px; */
+/* border: 1px solid yellowgreen; */
+align-items: center;
+}
+
+.form-contact__col-a {
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.form-contact__col-b {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.form-contact__label{
+ color: white;
+ font-weight: 500;
+ font-size: 18px;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.form-contact__input {
+    padding: 5px 10px;
+    height: 35px;
+    color: #18A2C9;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 3px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.form-contact__::placeholder {
+    color: #18A2C9;
+}
+
+.form-contact__input:focus {
+    background-color: #18A2C9;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+.form-contact__input--metade {
+    /* deixar um espaço para trabalhar entre eles*/
+    width: 48%;
+
+}
+
+.form-contact__input--email {
+    width: 100%;
+}
