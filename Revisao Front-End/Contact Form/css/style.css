@@ -57,7 +57,7 @@ width: 100%;
 margin-bottom: 15px;
 /* height: 60px; */
 /* border: 1px solid yellowgreen; */
-align-items: center;
+align-items: flex-start;
 }
 
 .form-contact__col-a {
@@ -106,6 +106,112 @@ align-items: center;
 
 }
 
-.form-contact__input--email {
+.form-contact__input--inteira {
     width: 100%;
+}
+
+.form-contact__input--terco {
+    width: 32%;
+}
+
+.form-contact__input--quarto {
+    width: 25%;
+}
+
+.form-contact__input--Anotacoes {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+}
+
+.form-contact__col-b-botoes {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    
+}
+
+.form-contact__col-b-botoes button {
+    padding: 10px 25px;
+    width: 350px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form-contact__col-b-botoes button:hover {
+    background-color: white;
+    color: #18A2C9;
+}
+
+@media (max-width: 768px) {
+
+    .form-contact {
+        padding: 15px;
+    }
+
+    .form-contact__linha {
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    /* Esconde os labels */
+    .form-contact__col-a {
+        display: none;
+    }
+
+    /* Inputs em coluna */
+    .form-contact__col-b {
+        width: 100%;
+        flex-direction: column;
+        gap: 12px; /* espaçamento IGUAL entre todos */
+    }
+
+    /* Todos inputs ocupam 100% */
+    .form-contact__input,
+    .form-contact__input--metade,
+    .form-contact__input--terco,
+    .form-contact__input--quarto,
+    .form-contact__input--inteira {
+        width: 100%;
+    }
+
+    .form-contact__input {
+        margin: 0;
+        height: 45px;
+    }
+
+    .form-contact__input--anotacoes {
+        height: 150px;
+    }
+
+    /* Botões */
+    .form-contact__col-b-botoes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-contact__col-b-botoes button {
+        width: 100%;
+    }
+
+    /* Header menor */
+    .form-header__image-perfil {
+        width: 80px;
+    }
+
+    .form-header__title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .form-header__subtitulo {
+        font-size: 14px;
+        text-align: center;
+    }
 }
