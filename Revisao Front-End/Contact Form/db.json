@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Henrique",
+      "sobrenome": "Nascimento"
+    },
+    {
+      "id": "2",
+      "nome": "Samuel",
+      "sobrenome": "Sousa"
+    },
+    {
+      "nome": "Matheus",
+      "sobrenome": "Felix",
+      "id": "AWIMehn0Qz8"
+    },
+    {
+      "nome": "Hugo",
+      "sobrenome": "Felix",
+      "id": "VAsK3SDyk2M"
+    },
+    {
+      "nome": "Henrique",
+      "sobrenome": "Nascimento",
+      "id": "w2fBtcCshW8"
+    },
+    {
+      "nome": ".",
+      "sobrenome": ".",
+      "id": "4IHhcye9Exw"
+    },
+    {
+      "nome": "Henrique",
+      "sobrenome": "Nascimento",
+      "id": "lIsf_-p6FHM"
+    },
+    {
+      "nome": "james",
+      "sobrenome": "bucha",
+      "id": "G_7pHEZpC88"
+    },
+    {
+      "nome": "Henrique",
+      "sobrenome": "Nascimento",
+      "email": "henriquegame56br@gmail.com",
+      "telefone": "11946337710",
+      "cep": "04230200",
+      "rua": "Rua Anísio Spínola Teixeira",
+      "numero": "2323",
+      "complemento": "a",
+      "bairro": "Cidade Nova Heliópolis",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "anotacoes": "121212",
+      "id": "EtNN5p8oZOo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
