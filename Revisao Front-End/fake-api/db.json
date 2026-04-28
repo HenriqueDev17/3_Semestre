@@ -1,0 +1,76 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Eduardo Costa",
+      "idade": 43,
+      "email": "edu@edu.com"
+    },
+    {
+      "id": "2",
+      "nome": "Henrique Bucha",
+      "idade": 17,
+      "email": "henriquebucha@gmail.com"
+    },
+    {
+      "id": "Sb6vpJYaVXg"
+    },
+    {
+      "nome": "Matheus",
+      "idade": 17,
+      "email": "matheusfelix@gmail.com",
+      "id": "Rb3V4D9mkZQ"
+    },
+    {
+      "id": "_dSBTKjSwFs",
+      "nome": "Paulo",
+      "idade": 17,
+      "email": "paulo@gmail.com"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "situacao": "Obesidade Grau I",
+      "id": "dRxfj2qDklk"
+    },
+    {
+      "nome": "Henrique",
+      "altura": 1.6,
+      "peso": 60,
+      "IMC": 23.437499999999996,
+      "situacao": "Saudável",
+      "id": "JMa0CyKoUww"
+    },
+    {
+      "nome": "Paulo Andre",
+      "altura": 1.83,
+      "peso": 64,
+      "IMC": 19.1107527844964,
+      "situacao": "Saudável",
+      "id": "NlqvjWfrizM"
+    },
+    {
+      "nome": "Matheus Felix",
+      "altura": 1.7,
+      "peso": 59,
+      "IMC": 20.41522491349481,
+      "situacao": "Saudável",
+      "id": "Y5oDECRfqMA"
+    }
+  ],
+  "posts": [
+    {
+      "texto": "Fomos para dubai",
+      "imagem": "https://www.viajali.com.br/wp-content/uploads/2019/12/dubai-1.jpg",
+      "qtdCurtidas": "100k",
+      "id": "clml06FmVyc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

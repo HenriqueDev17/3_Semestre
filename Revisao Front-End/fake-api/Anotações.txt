@@ -1,0 +1,40 @@
+JSON SERVER
+
+Facilita o desenvolvimento Front-End, pra você não ter que esperar o programador Back-End desenvolver a API
+
+Cria uma API Falsa (API REST)
+db.json
+
+Como instalar :
+Abrir o terminal, pode ser do VSCode ou não e rodar o seguinte comando: npm install -g json-server
+(com a flag/parâmetro) -g você instala o json-server de forma global, para qualquer projeto que você precisar usar depois.
+Criar o arquivo db.json na raiz do seu projeto na raiz do seu projeto (no VScode) - Este arquivo serve como banco de dados do                Json Server e ele mesmo controla esse arquivo a cada requisição
+
+Exemplo da Estrutura:
+	
+ {
+   "Rota/EndPoint": [
+     {"id" : 1, "dado-qualquer":"valor qualquer"}
+   ]
+ }
+
+Exemplo Fictício:
+{
+  "usuario" : [
+    {"id": 1,"nome":"Henrique Bucha",:"email":"henriquebucha@gmail.com","idade":17}
+    {"id": 2,"nome":"Samuel Faminto,:"email":"samuelfaminto@gmail.com","idade":17}
+	]
+}
+
+no VSCode devemos abrir o terminal e alterar para o terminal do git bash (testar o do windows?)
+  Rodar o comando json-server --watch db.json
+
+Exercício de fixação:
+Entrar no postman
+criar as requisições
+
+Cadastrar Usuário (Post)
+ListarUsuarios    (get)
+Listar Um Usuário (get)
+Editar Usuário    (put)
+Apagar Usuário    (delete)
