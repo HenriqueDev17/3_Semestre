@@ -30,6 +30,50 @@
   ],
   "frutas": [],
   "jogos": [],
+  "calculadora": [
+    {
+      "n1": 33.5,
+      "n2": 33.5,
+      "operacao": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+      },
+      "resultado": "67.00",
+      "id": "aflhFufWqME"
+    },
+    {
+      "n1": 21,
+      "n2": 21,
+      "operacao": "soma",
+      "resultado": "42.00",
+      "id": "SxHSKN_Okq8"
+    },
+    {
+      "n1": 33.5,
+      "n2": 33.5,
+      "operacao": "soma",
+      "resultado": "67.00",
+      "id": "BgkK4YH8t5w"
+    },
+ 
+    {
+      "n1": 21,
+      "n2": 21,
+      "operacao": "soma",
+      "resultado": "42.00",
+      "id": "ciHvLvM8LC8"
+    },
+    {
+      "n1": 6,
+      "n2": 6,
+      "operacao": "multiplicacao",
+      "resultado": "36.00",
+      "id": "feqmKmZCtcs"
+    }
+  ],
   "imc": [
     {
       "nome": "Eduardo",

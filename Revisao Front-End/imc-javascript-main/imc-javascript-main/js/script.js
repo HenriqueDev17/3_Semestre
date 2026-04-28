@@ -23,7 +23,7 @@ async function calcular() {
         nome: nome,
         altura: altura,
         peso: peso,
-        IMC: IMC,
+        IMC: IMC,   
         situacao: textoSituacao
     }
     const dadosGravados = await cadastrarNaApi(objIMC);
